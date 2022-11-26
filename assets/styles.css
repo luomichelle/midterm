@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+body{
+  margin:0px;
+}
+#navbar {
+  position: absolute;
+}
+#navbar h4 {
+  color: black;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-size: 30px;
+  text-shadow: 2px 2px white;
+  font-weight: 400;
+}
+.container-fluid {
+  width: 100%;
+}
+.container-fluid #about {
+  height: 100vh;
+  background-image: url('fullbackground.jfif');
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-fluid #about .about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align:center;
+}
+.container-fluid #about .about-me h1 {
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0em;
+  color: white;
+}
+.container-fluid #about .about-me h2, .container-fluid #about .about-me h3 {
+  color: white;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  font-size: 45px;
+}
+.introduction-container {
+  padding: 0px;
+}
+.introduction-container .profiles-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.introduction-container .profiles-container .profile-image {
+  max-width: 500px;
+  height: 
+}
+.introduction-container .profiles-container .awards {
+  padding-top:20px;
+  width: 500px;
+}
+.introduction-container .profiles-container .awards .name {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 0em;
+  line-height: 1.1em;
+  text-transform: none;
+}
+.introduction-container .profiles-container .awards .awardOwner h2 {
+  margin-bottom: 0px;
+}
+.introduction-container .profiles-container .awards .awardOwner p {
+  margin-bottom: 0px;
+}
+.introduction-container .profiles-container .awards .awardDetails {
+  white-space: pre-line;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+.introduction-container .profiles-container .awards .awardDetails .eachAward {
+  display: flex;
+  align-content: center;
+}
+.introduction-container .profiles-container .awards .awardDetails .eachAward img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-us {
+  display: flex;
+  padding: 20px;
+}
+.contact-us .mapCreater {
+  width: 70%;
+}
+.contact-us .contact-us-info {
+  width: 30%;
+}
+.contact-us .contact-us-info .info {
+  text-align: center;
+}
+.contact-us .contact-us-info .info h2 {
+  margin-bottom: 0px;
+}

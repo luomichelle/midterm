@@ -381,3 +381,12 @@ flex-basis: auto;
     text-align: center;
   }
 }
+
+@media only screen and (max-width:495){
+  .introduction-container .profiles-container .awards{
+    font-size:12px;
+	  p,a{
+	 font-size:inherited;
+	  }
+  }
+}
